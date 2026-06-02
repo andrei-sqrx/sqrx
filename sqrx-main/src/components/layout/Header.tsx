@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import Image from "next/image";
+import { ThemeToggle } from "./ThemeToggle";
 
 const NAV = [
   { to: "/services", label: "Servicii" },
@@ -25,7 +25,7 @@ export function Header() {
           className="font-display text-lg font-bold tracking-[0.2em]"
           onClick={() => setOpen(false)}
         >
-          <Image src="/SQRX logo.png" alt="SQRX Logo" width={80} height={32} className="object-contain" priority />
+          SQRX
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -48,6 +48,7 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
+          <ThemeToggle />
           <Link
             href="/contact"
             className="inline-flex h-9 items-center bg-primary px-4 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
@@ -57,6 +58,7 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
+          <ThemeToggle />
           <button
             onClick={() => setOpen((v) => !v)}
             aria-label="Deschide meniul"
