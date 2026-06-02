@@ -25,7 +25,7 @@ export function Header() {
           className="font-display text-lg font-bold tracking-[0.2em]"
           onClick={() => setOpen(false)}
         >
-          <Image src="/SQRX logo.png" alt="SQRX Logo" width={80} height={32} className="object-contain" priority />
+          <Image src="/sqrx-logo.png" alt="SQRX Logo" width={80} height={32} className="object-contain" priority />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
