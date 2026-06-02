@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { VideoIntro } from "@/components/layout/VideoIntro";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="flex min-h-screen flex-col">
+        <VideoIntro />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
