@@ -95,7 +95,7 @@ export function VideoIntro() {
                   console.error("Video failed to load.");
                   setShowIntro(false);
                 }}
-                className="h-full w-full object-contain md:object-cover"
+                className="w-full h-full max-w-[85vw] max-h-[70vh] md:max-w-[480px] md:max-h-[480px] object-contain"
               />
               <button 
                 onClick={() => setShowIntro(false)}
