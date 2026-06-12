@@ -19,23 +19,23 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-hairline bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+      <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-6">
         <Link
           href="/"
           className="font-display text-lg font-bold tracking-[0.2em]"
           onClick={() => setOpen(false)}
         >
-          <Image src="/sqrx-logo.png" alt="SQRX Logo" width={80} height={32} className="object-contain" priority />
+          <Image src="/sqrx-logo.png" alt="SQRX Logo" width={72} height={52} className="object-contain" priority />
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-10 md:flex">
           {NAV.map((item) => {
             const isActive = pathname === item.to;
             return (
               <Link
                 key={item.to}
                 href={item.to}
-                className={`text-sm transition-colors ${
+                className={`text-base transition-colors ${
                   isActive
                     ? "text-foreground font-medium"
                     : "text-muted-foreground hover:text-foreground"
@@ -50,7 +50,7 @@ export function Header() {
         <div className="hidden items-center gap-3 md:flex">
           <Link
             href="/contact"
-            className="inline-flex h-9 items-center bg-primary px-4 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            className="inline-flex h-10 items-center bg-primary px-5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
           >
             Programează o discuție
           </Link>
