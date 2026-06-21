@@ -48,8 +48,8 @@ export function Footer() {
             </h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
-                <a href="mailto:contact@sqrx.ro" className="hover:text-foreground">
-                  contact@sqrx.ro
+                <a href="mailto:andrei@sqrx.net" className="hover:text-foreground">
+                  andrei@sqrx.net
                 </a>
               </li>
               <li>
