@@ -85,8 +85,8 @@ export function ContactClient() {
 
             <div className="mt-8 space-y-2 text-sm">
               <p className="text-muted-foreground">Sau scrie direct:</p>
-              <a href="mailto:contact@sqrx.ro" className="block text-base hover:underline">
-                contact@sqrx.ro
+              <a href="mailto:andrei@sqrx.net" className="block text-base hover:underline">
+                andrei@sqrx.net
               </a>
               <a
                 href="#"
