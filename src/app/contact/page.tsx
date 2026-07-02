@@ -23,7 +23,7 @@ export default function Page() {
               name: "Contact SQRX",
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "contact@sqrx.ro",
+                email: "andrei@sqrx.net",
                 contactType: "sales",
                 areaServed: "RO",
                 availableLanguage: ["Romanian"],

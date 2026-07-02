@@ -10,6 +10,9 @@ export const metadata = {
   description:
     "SQRX construiește automatizări, agenți AI și sisteme interne pentru companii care vor rezultate practice.",
   authors: [{ name: "SQRX" }],
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "SQRX — Agenție AI",
     description: "Implementăm AI pentru operațiuni reale, nu pentru demo-uri.",
@@ -25,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ro">
       <head>
+        <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -41,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               description:
                 "Agenție AI care construiește automatizări, agenți AI și sisteme interne.",
               url: "https://sqrx.ro",
-              email: "contact@sqrx.ro",
+              email: "andrei@sqrx.net",
             }),
           }}
         />
