@@ -1,12 +1,13 @@
 import { HomeClient } from "./HomeClient";
 
 export const metadata = {
-  title: "SQRX — Sisteme AI care reduc munca manuală",
+  title: "SQRX — Agenție AI România | Automatizări și Agenți AI pentru Companii",
   description:
-    "Agenție AI care construiește automatizări, agenți AI și sisteme interne pentru companii care vor rezultate practice.",
+    "Agenție AI din România specializată în automatizări AI, agenți AI și sisteme interne. Implementare practică pentru companii care vor rezultate reale, nu demo-uri.",
   openGraph: {
-    title: "SQRX — Sisteme AI care reduc munca manuală",
-    description: "Implementăm AI pentru operațiuni reale, nu pentru demo-uri.",
+    title: "SQRX — Agenție AI România",
+    description:
+      "Automatizări AI, agenți AI și sisteme interne pentru companii din România. Implementare clară, fără promisiuni goale.",
   },
 };
 

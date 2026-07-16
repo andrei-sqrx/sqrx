@@ -1,12 +1,13 @@
 import { ContactClient } from "./ContactClient";
 
 export const metadata = {
-  title: "Contact — SQRX",
+  title: "Contact — SQRX Agenție AI România",
   description:
-    "Spune-ne ce vrei să îmbunătățești, să automatizezi sau să construiești. Răspundem rapid.",
+    "Contactează SQRX pentru automatizări AI, agenți AI sau sisteme interne. Răspundem rapid și stabilim următorii pași.",
   openGraph: {
-    title: "Contact — SQRX",
-    description: "Trimite-ne o cerere și revenim cu următorii pași.",
+    title: "Contact — SQRX Agenție AI România",
+    description:
+      "Spune-ne ce vrei să automatizezi sau să construiești. Trimite o cerere și revenim rapid.",
   },
 };
 
