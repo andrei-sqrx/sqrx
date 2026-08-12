@@ -122,35 +122,6 @@ export function AboutClient() {
         </div>
       </section>
 
-      <section className="border-b border-hairline">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-12 md:py-32">
-          <div className="md:col-span-5">
-            <div className="aspect-[4/5] w-full border border-hairline bg-surface-muted">
-              <div className="flex h-full items-center justify-center">
-                <span className="font-display text-xs uppercase tracking-[0.25em] text-muted-foreground">
-                  Portret fondator
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="md:col-span-7">
-            <p className="text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
-              Fondator
-            </p>
-            <h2 className="mt-4 font-display text-3xl font-semibold tracking-tight md:text-4xl">
-              SQRX pornește de la o idee simplă.
-            </h2>
-            <p className="mt-6 text-lg text-muted-foreground">
-              AI-ul trebuie să facă munca mai clară, mai rapidă și mai eficientă. Nu să înlocuiască
-              oameni cu interfețe noi, ci să le elimine pașii inutili.
-            </p>
-            <p className="mt-4 text-lg text-muted-foreground">
-              Lucrăm direct cu fondatori și echipe operaționale. Fără intermediari, fără promisiuni
-              nerealiste, fără demo-uri care nu ajung niciodată în producție.
-            </p>
-          </div>
-        </div>
-      </section>
 
       <section className="bg-primary text-primary-foreground">
         <div className="mx-auto flex max-w-7xl flex-col gap-8 px-6 py-24 md:flex-row md:items-center md:justify-between md:py-32">

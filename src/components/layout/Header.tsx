@@ -35,11 +35,10 @@ export function Header() {
               <Link
                 key={item.to}
                 href={item.to}
-                className={`text-base transition-colors ${
-                  isActive
+                className={`text-base transition-colors ${isActive
                     ? "text-foreground font-medium"
                     : "text-muted-foreground hover:text-foreground"
-                }`}
+                  }`}
               >
                 {item.label}
               </Link>
@@ -77,9 +76,8 @@ export function Header() {
                   key={item.to}
                   href={item.to}
                   onClick={() => setOpen(false)}
-                  className={`border-b border-hairline py-3 text-base ${
-                    isActive ? "text-foreground font-semibold" : "text-muted-foreground"
-                  }`}
+                  className={`border-b border-hairline py-3 text-base ${isActive ? "text-foreground font-semibold" : "text-muted-foreground"
+                    }`}
                 >
                   {item.label}
                 </Link>
